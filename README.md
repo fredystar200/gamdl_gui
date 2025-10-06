@@ -16,7 +16,7 @@ This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line to
 - **Presets**: One‑click profiles for *Audio‑only*, *Music Videos*, and *Lossless* workflows.
 - **Customizable**: Advanced tab for resolution, codec, remux format, language, and more.
 - **Progress & Logs**: Built‑in progress bar and live log viewer.
-- **First‑Run Wizard**: Guides you to select your `cookies.txt` file.
+- **First‑Run Wizard**: Auto-check and install Python, GAMDL and PyQt6 if app.py isn't inside the folder, Guides you to select your `cookies.txt` file.
 - **Tools Tab**: Check installation status of Python, GAMDL, and FFmpeg. Install or upgrade with one click.
 - **Config Persistence**: Remembers your settings in `settings.ini`.
 
