@@ -26,6 +26,7 @@ This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line to
 
 - **Python 3.10 or higher** installed on your system.
 - **GAMDL** installed (`pip install gamdl`).
+- **PyQt6** installed if you use the app.py
 - **cookies.txt** file exported from your Apple Music browser session (Netscape format).  
   Use one of these extensions while logged in with an active subscription:
   - **Firefox**: [Export Cookies](https://addons.mozilla.org/addon/export-cookies-txt)
