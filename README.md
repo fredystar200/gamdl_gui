@@ -3,7 +3,7 @@
 A modern **PyQt6 desktop application** for downloading Apple Music songs, albums, playlists, music videos, and post videos.  
 This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line tool into a user‑friendly interface with presets, progress bars, and configuration persistence.
 
-**Join Glomatico Server:** <https://discord.gg/aBjMEZ9tnq>
+**Join Glomatico's Discord Server:** <https://discord.gg/aBjMEZ9tnq>
 
 ---
 
