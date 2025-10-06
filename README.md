@@ -10,7 +10,7 @@ This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line to
 ## ✨ Features
 
 - **High‑Quality Songs**: Download tracks in AAC, ALAC, Atmos, and other codecs.
-- **High‑Quality Music Videos**: Download music videos up to 4K resolution.
+- (Not tested) **High‑Quality Music Videos**: Download music videos up to 4K resolution.
 - **Synced Lyrics**: Save synced lyrics in LRC, SRT, or TTML formats.
 - **Artist Support**: Fetch all albums or music videos from an artist link.
 - **Presets**: One‑click profiles for *Audio‑only*, *Music Videos*, and *Lossless* workflows.
