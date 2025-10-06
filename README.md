@@ -20,6 +20,26 @@ This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line to
 - **Tools Tab**: Check installation status of Python, GAMDL, and FFmpeg. Install or upgrade with one click.
 - **Config Persistence**: Remembers your settings in `settings.ini`.
 
+
+---
+
+## 🚀 Installation
+
+1. Download the app in the [releases page](https://github.com/fredystar200/gamdl_gui/releases/latest)
+   or 
+2. Download this repository and run python app.py (dependencies needed: pip install PyQt6 gamdl)
+
+---
+
+## 🕹️ Usage
+
+- Launch the app
+- On first run, select your `cookies.txt` file when prompted or directly paste it inside the same follder
+- Paste an Apple Music URL (song, album, playlist, artist, music video, or post video).
+- Choose output and temp folders if desired.
+- Adjust advanced options or use a preset.
+- Click **Download**. Progress and logs will appear in the **Logs** tab.
+
 ---
 
 ## 🖥️ Prerequisites
@@ -41,25 +61,6 @@ This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line to
 - [mp4decrypt](https://www.bento4.com/downloads/) — required for `mp4box` remux mode, music video downloads, and experimental codecs.
 - [MP4Box](https://gpac.io/downloads/gpac-nightly-builds/) — required for `mp4box` remux mode.
 - [N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE/releases/latest) — required for `nm3u8dlre` download mode.
-
----
-
-## 🚀 Installation
-
-1. Download the app in the [releases page](https://github.com/fredystar200/gamdl_gui/releases/latest)
-   or 
-2. Download this repository and run python app.py (dependencies needed: pip install PyQt6 gamdl)
-
----
-
-## 🕹️ Usage
-
-- Launch the app
-- On first run, select your `cookies.txt` file when prompted or directly paste it inside the same follder
-- Paste an Apple Music URL (song, album, playlist, artist, music video, or post video).
-- Choose output and temp folders if desired.
-- Adjust advanced options or use a preset.
-- Click **Download**. Progress and logs will appear in the **Logs** tab.
 
 ---
 
