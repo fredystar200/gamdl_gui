@@ -15,27 +15,12 @@ from PyQt6.QtWidgets import (
 )
 
 APP_TITLE = "GAMDL — Apple Music Downloader"
-
-# When frozen by PyInstaller, sys._MEIPASS points to the temp bundle dir
-if getattr(sys, 'frozen', False):
-    APP_DIR = Path(sys._MEIPASS)
-else:
-    APP_DIR = Path(__file__).parent
-
-# Put user config/wizard marker in the home directory (always writable)
-CONFIG_DIR = Path.home() / ".gamdl_gui"
-CONFIG_DIR.mkdir(parents=True, exist_ok=True)
-
-CONFIG_PATH = CONFIG_DIR / "settings.ini"
-FIRSTWIZARD_PATH = CONFIG_DIR / "firstwizard.done"
-
-# Icon can still be loaded from the app directory
-ICON_PATH = APP_DIR / "icon.png"
-
-# Default output/temp folders remain in the user’s Music folder
+APP_DIR = Path(__file__).parent
+CONFIG_PATH = APP_DIR / "settings.ini"
+FIRSTWIZARD_PATH = APP_DIR / "firstwizard.done"
 DEFAULT_OUTPUT = str(Path.home() / "Apple Music")
 DEFAULT_TEMP = str(Path.home() / "Apple Music" / "temp")
-
+ICON_PATH = APP_DIR / "icon.png"  # Put your monochrome icon here
 
 # Worker thread for running gamdl
 class ProcessWorker(QThread):
