@@ -27,14 +27,14 @@ This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line to
 
 1. Download the app in the [releases page](https://github.com/fredystar200/gamdl_gui/releases/latest)
    or 
-2. Download this repository and run python app.py (dependencies needed: pip install PyQt6 gamdl)
+2. Download this repository and run python app.py or app2.py for the most stable one (dependencies needed: pip install PyQt6 gamdl)
 
 ---
 
 ## 🕹️ Usage
 
 - Launch the app
-- On first run, select your `cookies.txt` file when prompted or directly paste it inside the same follder
+- On first run, select your `cookies.txt` file when prompted or directly paste it inside the same folder (a must for app2.py)
 - Paste an Apple Music URL (song, album, playlist, artist, music video, or post video).
 - Choose output and temp folders if desired.
 - Adjust advanced options or use a preset.
