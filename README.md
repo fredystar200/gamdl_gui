@@ -25,9 +25,10 @@ This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line to
 
 ## 🚀 Installation
 
-1. Download the app in the [releases page](https://github.com/fredystar200/gamdl_gui/releases/latest)
+1. Download the app (gamdl_gui.exe or gamdl_gui2.exe for the most stable one but simple gui) in the [releases page](https://github.com/fredystar200/gamdl_gui/releases/latest)
+
    or 
-2. Download this repository and run python app.py or app2.py for the most stable one (dependencies needed: pip install PyQt6 gamdl)
+3. Download this repository and run python app.py or app2.py for the most stable one but simple gui (dependencies needed: pip install PyQt6 gamdl)
 
 ---
 
