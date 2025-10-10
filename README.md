@@ -1,5 +1,5 @@
 # GAMDL GUI — Apple Music Downloader
-
+# 🚧 Disclaimer: This application is still in development. Some features may not work as expected, and bugs are likely to occur.
 A modern **PyQt6 desktop application** for downloading Apple Music songs, albums, playlists, music videos, and post videos.  
 This GUI wraps the [GAMDL](https://github.com/glomatico/gamdl) command‑line tool into a user‑friendly interface with presets, progress bars, and configuration persistence.
 
